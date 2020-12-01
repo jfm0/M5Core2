@@ -334,6 +334,7 @@ Example
 
 #include <Arduino.h>
 #include <Wire.h>
+#include <vector>
 
 #define CST_DEVICE_ADDR		0x38
 #define CST_INT 			39

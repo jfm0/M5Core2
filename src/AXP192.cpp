@@ -463,6 +463,7 @@ void AXP192::SetDCVoltage(uint8_t number, uint16_t voltage)
     voltage = (voltage < 700) ? 0 : (voltage - 700) / 25;
     switch (number)
     {
+    default:
     case 0:
         addr = 0x26;
         break;
